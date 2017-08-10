@@ -3,6 +3,7 @@ status: true
 dependencies:
   module:
     - node
+_core:
 id: carousel_slides
 label: 'Carousel Slides'
 type: 'canonical_entities:node'

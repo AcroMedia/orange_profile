@@ -133,6 +133,8 @@ handlers:
       debug: false
       reply_to: ''
       return_path: ''
+      ignore_access: false
+      exclude_empty: true
   email_notification:
     id: email
     label: 'Email notification'
@@ -159,3 +161,5 @@ handlers:
       debug: false
       reply_to: ''
       return_path: ''
+      ignore_access: false
+      exclude_empty: true

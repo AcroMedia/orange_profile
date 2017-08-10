@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attach_webform
+    - node.type.landing_page
+  module:
+    - webform
+id: node.landing_page.field_attach_webform
+field_name: field_attach_webform
+entity_type: node
+bundle: landing_page
+label: 'Attach Webform'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+  default_data: ''
+  status: open
+  open: ''
+  close: ''
+field_type: webform

@@ -1,0 +1,37 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_attach_webform
+    - field.field.node.landing_page.field_page_header_image
+    - field.field.node.landing_page.field_webform_body
+    - field.field.node.landing_page.field_webform_title
+    - node.type.landing_page
+  module:
+    - text
+    - user
+id: node.landing_page.full
+targetEntityType: node
+bundle: landing_page
+mode: full
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_attach_webform: true
+  field_page_header_image: true
+  field_webform_body: true
+  field_webform_title: true
+  langcode: true

@@ -1,0 +1,46 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_attach_webform
+    - field.field.node.landing_page.field_page_header_image
+    - field.field.node.landing_page.field_webform_body
+    - field.field.node.landing_page.field_webform_title
+    - image.style.banner
+    - node.type.landing_page
+  module:
+    - image
+    - text
+    - user
+id: node.landing_page.default
+targetEntityType: node
+bundle: landing_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_page_header_image:
+    weight: 2
+    label: hidden
+    settings:
+      image_style: banner
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_attach_webform: true
+  field_webform_body: true
+  field_webform_title: true
+  langcode: true

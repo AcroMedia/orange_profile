@@ -4,6 +4,7 @@ dependencies:
   module:
     - ctools
     - taxonomy
+_core:
 id: blog_taxonomy
 label: 'Blog Taxonomy'
 type: 'canonical_entities:taxonomy_term'

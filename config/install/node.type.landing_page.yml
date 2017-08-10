@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Landing page'
+type: landing_page
+description: 'Standalone pages that can be be user for a marketing campaign / online marketing Call-To-Actions'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
