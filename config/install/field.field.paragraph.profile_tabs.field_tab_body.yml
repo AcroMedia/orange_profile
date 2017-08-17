@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_tab_body
+    - paragraphs.paragraphs_type.profile_tabs
+  module:
+    - text
+id: paragraph.profile_tabs.field_tab_body
+field_name: field_tab_body
+entity_type: paragraph
+bundle: profile_tabs
+label: 'Tab Body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

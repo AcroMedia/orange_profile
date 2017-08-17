@@ -112,6 +112,7 @@ handlers:
     label: 'Email confirmation'
     handler_id: email_confirmation
     status: true
+    conditions: {  }
     weight: 1
     settings:
       states:
@@ -133,11 +134,14 @@ handlers:
       debug: false
       reply_to: ''
       return_path: ''
+      ignore_access: false
+      exclude_empty: true
   email_notification:
     id: email
     label: 'Email notification'
     handler_id: email_notification
     status: true
+    conditions: {  }
     weight: 1
     settings:
       states:
@@ -159,3 +163,5 @@ handlers:
       debug: false
       reply_to: ''
       return_path: ''
+      ignore_access: false
+      exclude_empty: true

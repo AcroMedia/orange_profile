@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.profile_tabs.field_tab_body
+    - field.field.paragraph.profile_tabs.field_tab_title
+    - paragraphs.paragraphs_type.profile_tabs
+  module:
+    - text
+id: paragraph.profile_tabs.default
+targetEntityType: paragraph
+bundle: profile_tabs
+mode: default
+content:
+  field_tab_body:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tab_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

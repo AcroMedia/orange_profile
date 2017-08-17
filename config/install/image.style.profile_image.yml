@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: profile_image
+label: 'Profile Image 332X400'
+effects:
+  c43541c9-547c-4440-8879-f91c8fb24ea1:
+    uuid: c43541c9-547c-4440-8879-f91c8fb24ea1
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 332
+      height: 400

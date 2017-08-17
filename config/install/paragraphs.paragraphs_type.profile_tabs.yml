@@ -1,0 +1,6 @@
+langcode: en
+status: true
+dependencies: {  }
+id: profile_tabs
+label: 'Profile Page Tabs'
+behavior_plugins: {  }
