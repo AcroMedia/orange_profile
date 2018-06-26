@@ -236,5 +236,5 @@ function orange_profile_install() {
 
   // Disable the contact link in the footer menu.
   $menu_link_manager = \Drupal::service('plugin.manager.menu.link');
-  $menu_link_manager->updateDefinition('contact.site_page', array('enabled' => FALSE));
+  $menu_link_manager->updateDefinition('contact.site_page', ['enabled' => FALSE]);
 }

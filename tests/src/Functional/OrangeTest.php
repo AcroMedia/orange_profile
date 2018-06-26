@@ -11,14 +11,14 @@ use Drupal\Tests\BrowserTestBase;
  */
 class OrangeTest extends BrowserTestBase {
 
-    protected $profile = 'orange';
+  protected $profile = 'orange';
 
-    /**
-     * Tests pages exist.
-     */
-    public function testOrangePages() {
-        $this->drupalGet('livecss');
-        $this->assertSession()->statusCodeEquals(200);
-    }
+  /**
+   * Tests pages exist.
+   */
+  public function testOrangePages() {
+    $this->drupalGet('livecss');
+    $this->assertSession()->statusCodeEquals(200);
+  }
 
 }
