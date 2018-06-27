@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+name: gallery_thumbnail
+label: 'Gallery Thumbnail'
+effects:
+  c88ec6d1-2c14-4ce8-9d74-afc788b21360:
+    uuid: c88ec6d1-2c14-4ce8-9d74-afc788b21360
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 90
+      height: 50

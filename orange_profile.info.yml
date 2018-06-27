@@ -28,12 +28,12 @@ dependencies:
   - help
   - history
   - image
+  - inline_form_errors
   - language
   - link
   - locale
   - menu_link_content
   - menu_ui
-  - metatag
   - node
   - options
   - page_cache
@@ -50,25 +50,46 @@ dependencies:
   - text
   - toolbar
   - user
+  - update
   - views
   - views_ui
 
   # Contrib.
   - admin_toolbar
   - admin_toolbar_tools
+  - better_exposed_filters
   - ctools
+  - ckeditor_font
+  - ckeditor_media_embed
+  - color_field
+  - colorbutton
+  - contribute
+  - comments_order
   - entity_reference_revisions
+  - editor_advanced_link
   - field_group
   - google_analytics
   - honeypot
+  - image_effects
   - imce
+  - linkit
+  - magnific_popup
+  - mailsystem
   - menu_block
+  - menu_trail_by_path
   - metatag
+  - metatag_open_graph
+  - panelbutton
   - paragraphs
   - pathauto
+  - search_api
+  - search_api_solr
+  - swiftmailer
   - taxonomy_menu
   - token
+  - twig_tweak
   - userprotect
+  - views_infinite_scroll
   - webform
   - webform_ui
 

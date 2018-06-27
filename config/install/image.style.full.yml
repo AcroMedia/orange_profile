@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: full
+label: Full
+effects:
+  645d9423-1c15-42d4-954e-498d5e7ec3a7:
+    uuid: 645d9423-1c15-42d4-954e-498d5e7ec3a7
+    id: image_scale
+    weight: 1
+    data:
+      width: 1400
+      height: 1400
+      upscale: false

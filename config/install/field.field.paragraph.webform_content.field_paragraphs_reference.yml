@@ -1,0 +1,56 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraphs_reference
+    - paragraphs.paragraphs_type.accordion
+    - paragraphs.paragraphs_type.standard_content
+    - paragraphs.paragraphs_type.webform_content
+  module:
+    - entity_reference_revisions
+id: paragraph.webform_content.field_paragraphs_reference
+field_name: field_paragraphs_reference
+entity_type: paragraph
+bundle: webform_content
+label: Content
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      standard_content: standard_content
+      accordion: accordion
+    target_bundles_drag_drop:
+      standard_content:
+        enabled: true
+        weight: -19
+      accordion:
+        enabled: true
+        weight: -18
+      webform_content:
+        weight: -17
+        enabled: false
+      accordion_item:
+        weight: -16
+        enabled: false
+      carousel:
+        weight: -15
+        enabled: false
+      carousel_slide:
+        weight: -14
+        enabled: false
+      tab:
+        weight: -13
+        enabled: false
+      tabs:
+        weight: -12
+        enabled: false
+      webform:
+        weight: -11
+        enabled: false
+field_type: entity_reference_revisions

@@ -6,8 +6,8 @@ dependencies:
 _core:
 id: pagetitle
 theme: orange_starter
-region: content
-weight: -1
+region: above_content
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

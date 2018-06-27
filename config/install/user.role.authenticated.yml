@@ -16,7 +16,6 @@ permissions:
   - 'post comments'
   - 'search content'
   - 'skip comment approval'
-  - 'use text format html'
   - userprotect.account.edit
   - userprotect.mail.edit
   - userprotect.pass.edit

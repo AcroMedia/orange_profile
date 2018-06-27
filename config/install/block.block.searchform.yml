@@ -9,7 +9,7 @@ _core:
 id: searchform
 theme: orange_starter
 region: site_search
-weight: 0
+weight: -7
 provider: null
 plugin: search_form_block
 settings:

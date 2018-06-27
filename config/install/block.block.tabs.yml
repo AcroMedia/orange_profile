@@ -6,8 +6,8 @@ dependencies:
 _core:
 id: tabs
 theme: orange_starter
-region: content
-weight: 0
+region: above_content
+weight: -6
 provider: null
 plugin: local_tasks_block
 settings:
