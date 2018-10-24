@@ -6,6 +6,7 @@ dependencies:
     - node.type.homepage
   module:
     - text
+_core:
 id: node.homepage.body
 field_name: body
 entity_type: node

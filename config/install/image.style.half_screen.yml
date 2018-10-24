@@ -1,11 +1,12 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
 name: half_screen
 label: 'Half Screen'
 effects:
-  b419b5d2-a44b-4b61-8067-c71ccaaba89c:
-    uuid: b419b5d2-a44b-4b61-8067-c71ccaaba89c
+  26eff45b-0379-4155-b7f2-c98e4dbbc94f:
+    uuid: 26eff45b-0379-4155-b7f2-c98e4dbbc94f
     id: image_scale
     weight: 1
     data:

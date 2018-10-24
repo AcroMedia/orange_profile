@@ -1,13 +1,15 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
 name: gallery_thumbnail
-label: 'Gallery Thumbnail'
+label: 'Gallery - Thumbnail'
 effects:
-  c88ec6d1-2c14-4ce8-9d74-afc788b21360:
-    uuid: c88ec6d1-2c14-4ce8-9d74-afc788b21360
+  cd271c7e-7a0f-4547-80af-389b4c4924cd:
+    uuid: cd271c7e-7a0f-4547-80af-389b4c4924cd
     id: image_scale_and_crop
     weight: 1
     data:
       width: 90
       height: 50
+      anchor: center-center

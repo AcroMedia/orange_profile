@@ -10,6 +10,7 @@ third_party_settings:
       - header
       - main
     parent: 'main:'
+_core:
 name: Homepage
 type: homepage
 description: 'A page using the homepage template. Usually containing rich media elements.'

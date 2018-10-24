@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.accordion.field_paragraphs_reference
-    - field.field.paragraph.accordion.field_text
+    - field.field.paragraph.accordion.field_string
     - paragraphs.paragraphs_type.accordion
   module:
     - field_group
@@ -12,6 +12,7 @@ third_party_settings:
   field_group:
     group_accordion_content:
       children:
+        - field_string
         - field_paragraphs_reference
       parent_name: ''
       weight: 20
@@ -22,14 +23,14 @@ third_party_settings:
         open: false
         required_fields: true
       label: 'Accordion Content'
+_core:
 id: paragraph.accordion.default
 targetEntityType: paragraph
 bundle: accordion
 mode: default
 content:
   field_paragraphs_reference:
-    type: entity_reference_paragraphs
-    weight: 1
+    weight: 22
     settings:
       title: 'Accordion Item'
       title_plural: 'Accordion Items'
@@ -38,9 +39,10 @@ content:
       form_display_mode: default
       default_paragraph_type: accordion_item
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
-  field_text:
-    weight: 0
+  field_string:
+    weight: 21
     settings:
       size: 60
       placeholder: ''

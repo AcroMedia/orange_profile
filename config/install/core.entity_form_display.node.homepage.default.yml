@@ -11,6 +11,7 @@ dependencies:
     - paragraphs
     - path
     - text
+_core:
 id: node.homepage.default
 targetEntityType: node
 bundle: homepage
@@ -38,7 +39,6 @@ content:
     type: metatag_firehose
     region: content
   field_paragraphs_reference:
-    type: entity_reference_paragraphs
     weight: 123
     settings:
       title: Component
@@ -48,6 +48,7 @@ content:
       form_display_mode: default
       default_paragraph_type: _none
     third_party_settings: {  }
+    type: entity_reference_paragraphs
     region: content
   langcode:
     type: language_select

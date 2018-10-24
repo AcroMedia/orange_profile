@@ -1,13 +1,15 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
 name: carousel_slide
 label: 'Carousel Slide'
 effects:
-  71d405c0-b144-448e-a35f-6ab15a9f9322:
-    uuid: 71d405c0-b144-448e-a35f-6ab15a9f9322
+  84c92e27-17e5-474a-b1bd-a87d8fd28708:
+    uuid: 84c92e27-17e5-474a-b1bd-a87d8fd28708
     id: image_scale_and_crop
     weight: 1
     data:
       width: 1600
       height: 565
+      anchor: center-center

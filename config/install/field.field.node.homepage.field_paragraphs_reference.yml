@@ -7,6 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.carousel
   module:
     - entity_reference_revisions
+_core:
 id: node.homepage.field_paragraphs_reference
 field_name: field_paragraphs_reference
 entity_type: node
@@ -14,7 +15,7 @@ bundle: homepage
 label: Components
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
@@ -26,29 +27,29 @@ settings:
     target_bundles_drag_drop:
       carousel:
         enabled: true
-        weight: -19
-      webform_content:
-        weight: -18
+        weight: -21
+      carousel_slide:
+        weight: -20
         enabled: false
       accordion:
-        weight: -17
+        weight: -19
         enabled: false
       accordion_item:
-        weight: -16
-        enabled: false
-      carousel_slide:
-        weight: -15
+        weight: -18
         enabled: false
       standard_content:
-        weight: -14
+        weight: -17
         enabled: false
       tab:
-        weight: -13
+        weight: -16
         enabled: false
       tabs:
-        weight: -12
+        weight: -15
         enabled: false
       webform:
-        weight: -11
+        weight: -14
+        enabled: false
+      webform_content:
+        weight: -13
         enabled: false
 field_type: entity_reference_revisions

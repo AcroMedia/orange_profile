@@ -1,13 +1,15 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
 name: gallery
 label: Gallery
 effects:
-  61000864-f61e-451c-a944-9d0a472dd5b6:
-    uuid: 61000864-f61e-451c-a944-9d0a472dd5b6
+  bf937e09-38db-4c8d-9f63-1c7fd6ffbfda:
+    uuid: bf937e09-38db-4c8d-9f63-1c7fd6ffbfda
     id: image_scale_and_crop
     weight: 1
     data:
       width: 900
       height: 500
+      anchor: center-center

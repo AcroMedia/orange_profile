@@ -6,8 +6,6 @@ dependencies:
 third_party_settings:
   menu_ui:
     available_menus:
-      - footer
-      - header
       - main
     parent: 'main:'
 _core:

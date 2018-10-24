@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_string
+    - paragraphs.paragraphs_type.carousel_slide
+_core:
+id: paragraph.carousel_slide.field_string
+field_name: field_string
+entity_type: paragraph
+bundle: carousel_slide
+label: Title
+description: 'Optional title that will be displayed for this slide.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

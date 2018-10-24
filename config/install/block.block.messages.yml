@@ -5,6 +5,7 @@ dependencies:
     - system
   theme:
     - orange_starter
+_core:
 id: messages
 theme: orange_starter
 region: highlighted

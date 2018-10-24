@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_string
+    - paragraphs.paragraphs_type.tab
+_core:
+id: paragraph.tab.field_string
+field_name: field_string
+entity_type: paragraph
+bundle: tab
+label: 'Tab Title'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

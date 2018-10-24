@@ -5,7 +5,23 @@ dependencies:
     - field.field.paragraph.carousel.field_paragraphs_reference
     - paragraphs.paragraphs_type.carousel
   module:
+    - field_group
     - paragraphs
+third_party_settings:
+  field_group:
+    group_carousel_slides:
+      children:
+        - field_paragraphs_reference
+      parent_name: ''
+      weight: 20
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: true
+      label: 'Carousel Slides'
+_core:
 id: paragraph.carousel.default
 targetEntityType: paragraph
 bundle: carousel

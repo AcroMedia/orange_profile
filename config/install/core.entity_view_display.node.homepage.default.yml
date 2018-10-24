@@ -10,6 +10,7 @@ dependencies:
     - entity_reference_revisions
     - text
     - user
+_core:
 id: node.homepage.default
 targetEntityType: node
 bundle: homepage
@@ -23,13 +24,13 @@ content:
     third_party_settings: {  }
     region: content
   field_paragraphs_reference:
-    type: entity_reference_revisions_entity_view
     weight: 1
     label: hidden
     settings:
       view_mode: default
       link: ''
     third_party_settings: {  }
+    type: entity_reference_revisions_entity_view
     region: content
 hidden:
   field_meta_tags: true

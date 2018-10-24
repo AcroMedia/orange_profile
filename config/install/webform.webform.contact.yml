@@ -7,6 +7,7 @@ dependencies:
 _core:
 open: null
 close: null
+weight: 0
 uid: null
 template: false
 archive: false
@@ -165,7 +166,7 @@ handlers:
       bcc_options: {  }
       from_mail: '[webform_submission:values:email:raw]'
       from_options: {  }
-      from_name: '[webform_submission:values:name:value]'
+      from_name: '[webform_submission:values:name:raw]'
       subject: 'Contact Us submission from [webform_submission:values:name:raw]'
       body: '[webform_submission:values]'
       excluded_elements: {  }
@@ -180,3 +181,5 @@ handlers:
       twig: false
       sender_mail: ''
       sender_name: ''
+      theme: ''
+      theme_name: ''

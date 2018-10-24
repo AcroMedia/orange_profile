@@ -1,0 +1,45 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.logo_carousel.field_paragraphs_reference
+    - paragraphs.paragraphs_type.logo_carousel
+  module:
+    - field_group
+    - paragraphs
+third_party_settings:
+  field_group:
+    group_component_details:
+      children:
+        - field_paragraphs_reference
+      parent_name: ''
+      weight: 20
+      format_type: details
+      format_settings:
+        id: ''
+        classes: ''
+        open: false
+        required_fields: true
+      label: 'Component Details'
+_core:
+id: paragraph.logo_carousel.default
+targetEntityType: paragraph
+bundle: logo_carousel
+mode: default
+content:
+  field_paragraphs_reference:
+    weight: 0
+    settings:
+      title: Logo
+      title_plural: Logos
+      edit_mode: closed
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: _none
+    third_party_settings: {  }
+    type: entity_reference_paragraphs
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

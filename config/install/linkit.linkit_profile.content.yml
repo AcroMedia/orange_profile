@@ -8,10 +8,15 @@ third_party_settings:
   imce:
     use: true
     scheme: public
+_core:
 id: content
 label: Content
 description: ''
 attributes:
+  id:
+    id: id
+    weight: -8
+    settings: {  }
   target:
     id: target
     weight: -10
@@ -22,17 +27,13 @@ attributes:
     weight: -9
     settings:
       automatic_title: false
-  id:
-    id: id
-    weight: -8
-    settings: {  }
 matchers:
-  0f5fbe32-9355-46e4-8a84-78427fcf006b:
-    uuid: 0f5fbe32-9355-46e4-8a84-78427fcf006b
+  ae7a9a68-5aeb-487f-9c76-0590a1ff224f:
+    uuid: ae7a9a68-5aeb-487f-9c76-0590a1ff224f
     id: 'entity:node'
     weight: 0
     settings:
-      result_description: Component
+      result_description: Content
       bundles: {  }
       group_by_bundle: false
       include_unpublished: false

@@ -3,6 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.tabs.field_paragraphs_reference
+    - field.field.paragraph.tabs.field_tabs_layout
     - paragraphs.paragraphs_type.tabs
   module:
     - field_group
@@ -11,9 +12,10 @@ third_party_settings:
   field_group:
     group_tabs_content:
       children:
+        - field_tabs_layout
         - field_paragraphs_reference
       parent_name: ''
-      weight: 20
+      weight: 0
       format_type: details
       format_settings:
         id: ''
@@ -21,13 +23,15 @@ third_party_settings:
         open: false
         required_fields: true
       label: 'Tabs Content'
+_core:
 id: paragraph.tabs.default
 targetEntityType: paragraph
 bundle: tabs
 mode: default
 content:
   field_paragraphs_reference:
-    weight: 0
+    type: entity_reference_paragraphs
+    weight: 1
     settings:
       title: Tab
       title_plural: Tabs
@@ -36,8 +40,13 @@ content:
       form_display_mode: default
       default_paragraph_type: tab
     third_party_settings: {  }
-    type: entity_reference_paragraphs
     region: content
+  field_tabs_layout:
+    type: options_select
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   status: true

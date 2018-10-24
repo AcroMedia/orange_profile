@@ -1,13 +1,15 @@
 langcode: en
 status: true
 dependencies: {  }
+_core:
 name: carousel_slide_mobile
 label: 'Carousel Slide - For Mobile'
 effects:
-  fcf6f2db-a9f7-4e1a-9665-6b96a43eca7b:
-    uuid: fcf6f2db-a9f7-4e1a-9665-6b96a43eca7b
+  00674e66-0529-4706-bada-941a38a2bd9a:
+    uuid: 00674e66-0529-4706-bada-941a38a2bd9a
     id: image_scale_and_crop
     weight: 1
     data:
       width: 768
       height: 565
+      anchor: center-center

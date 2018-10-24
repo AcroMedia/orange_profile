@@ -7,6 +7,7 @@ dependencies:
     - paragraphs.paragraphs_type.carousel_slide
   module:
     - entity_reference_revisions
+_core:
 id: paragraph.carousel.field_paragraphs_reference
 field_name: field_paragraphs_reference
 entity_type: paragraph
@@ -26,14 +27,29 @@ settings:
     target_bundles_drag_drop:
       carousel_slide:
         enabled: true
-        weight: -9
-      carousel:
-        weight: -8
-        enabled: false
+        weight: 11
       accordion:
-        weight: -7
+        weight: 12
         enabled: false
       accordion_item:
-        weight: -6
+        weight: 13
+        enabled: false
+      carousel:
+        weight: 14
+        enabled: false
+      standard_content:
+        weight: 16
+        enabled: false
+      tab:
+        weight: 17
+        enabled: false
+      tabs:
+        weight: 18
+        enabled: false
+      webform:
+        weight: 19
+        enabled: false
+      webform_content:
+        weight: 20
         enabled: false
 field_type: entity_reference_revisions
