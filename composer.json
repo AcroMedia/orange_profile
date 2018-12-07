@@ -7,6 +7,7 @@
   "require": {
     "drupal/admin_toolbar": "^1.24",
     "drupal/advagg": "^3.5",
+    "drupal/ajax_loader": "^1.4",
     "drupal/config_inspector": "1.x-dev",
     "drupal/ctools": "^3.0",
     "drupal/entity": "1.x",
