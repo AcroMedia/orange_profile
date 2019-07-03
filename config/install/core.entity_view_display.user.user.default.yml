@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.user.user.field_display_name
+  module:
+    - user
+_core:
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content: {  }
+hidden:
+  field_display_name: true
+  langcode: true
+  member_for: true

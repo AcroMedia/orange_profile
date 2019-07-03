@@ -1,0 +1,42 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.notice_strap
+    - field.field.block_content.notice_strap.field_paragraph
+  module:
+    - paragraphs
+_core:
+id: block_content.notice_strap.default
+targetEntityType: block_content
+bundle: notice_strap
+mode: default
+content:
+  field_paragraph:
+    type: entity_reference_paragraphs
+    weight: 2
+    settings:
+      title: 'Notice Strap'
+      title_plural: 'Notice Straps'
+      edit_mode: open
+      add_mode: dropdown
+      form_display_mode: default
+      default_paragraph_type: notice_strap
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

@@ -38,18 +38,18 @@ settings:
         weight: -18
         enabled: false
       standard_content:
-        weight: -17
-        enabled: false
-      tab:
         weight: -16
         enabled: false
-      tabs:
+      tab:
         weight: -15
         enabled: false
-      webform:
+      tabs:
         weight: -14
         enabled: false
-      webform_content:
+      webform:
         weight: -13
+        enabled: false
+      webform_content:
+        weight: -12
         enabled: false
 field_type: entity_reference_revisions

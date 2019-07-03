@@ -87,8 +87,6 @@ dependencies:
   - panelbutton
   - paragraphs
   - pathauto
-  - search_api
-  - search_api_solr
   - swiftmailer
   - taxonomy_menu
   - token
