@@ -10,6 +10,7 @@
     "drupal/ajax_loader": "^1.4",
     "drupal/config_inspector": "^1.0",
     "drupal/ctools": "^3.0",
+    "drupal/easy_breadcrumb": "^1.12",
     "drupal/entity": "^1",
     "drupal/entity_reference_revisions": "^1.5",
     "drupal/field_group": "^3.0",

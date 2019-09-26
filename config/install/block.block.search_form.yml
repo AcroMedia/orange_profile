@@ -5,6 +5,7 @@ dependencies:
     - search
   theme:
     - orange_starter
+_core:
 id: search_form
 theme: orange_starter
 region: site_search

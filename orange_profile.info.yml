@@ -70,6 +70,7 @@ dependencies:
   - colorbutton
   - contribute
   - comments_order
+  - easy_breadcrumb
   - entity_reference_revisions
   - editor_advanced_link
   - field_group
