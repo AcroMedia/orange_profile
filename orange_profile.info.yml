@@ -66,6 +66,7 @@ dependencies:
   - ctools
   - ckeditor_font
   - ckeditor_media_embed
+  - coffee
   - color_field
   - colorbutton
   - contribute
