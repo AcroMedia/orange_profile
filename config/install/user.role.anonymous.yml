@@ -11,3 +11,4 @@ permissions:
   - 'access content'
   - 'post comments'
   - 'search content'
+  - 'view media'

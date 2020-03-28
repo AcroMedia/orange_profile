@@ -9,7 +9,7 @@ _core:
 id: breadcrumbs
 theme: orange_starter
 region: header
-weight: 0
+weight: -12
 provider: null
 plugin: system_breadcrumb_block
 settings:

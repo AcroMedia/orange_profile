@@ -4,6 +4,7 @@ dependencies:
   enforced:
     module:
       - webform
+_core:
 open: null
 close: null
 weight: 0
@@ -128,6 +129,7 @@ settings:
   purge_days: null
   results_disabled: false
   results_disabled_ignore: false
+  results_customize: false
   token_view: false
   token_update: false
   form_submit_label: 'Send Message'
@@ -224,4 +226,5 @@ handlers:
       theme: ''
       theme_name: ''
       parameters: {  }
-_core:
+      exclude_attachments: false
+variants: {  }

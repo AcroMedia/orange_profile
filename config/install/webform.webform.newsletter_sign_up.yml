@@ -1,6 +1,7 @@
 langcode: en
 status: open
 dependencies: {  }
+_core:
 open: null
 close: null
 weight: 0
@@ -125,6 +126,7 @@ settings:
   purge_days: null
   results_disabled: false
   results_disabled_ignore: false
+  results_customize: false
   token_view: false
   token_update: false
   form_login: false
@@ -179,4 +181,4 @@ access:
     users: {  }
     permissions: {  }
 handlers: {  }
-_core:
+variants: {  }

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.site_search
+  module:
+    - views
+  theme:
+    - orange_starter
+_core:
+id: site_search_block
+theme: orange_starter
+region: site_search
+weight: -10
+provider: null
+plugin: 'views_exposed_filter_block:site_search-site_search'
+settings:
+  id: 'views_exposed_filter_block:site_search-site_search'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

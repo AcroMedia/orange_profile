@@ -7,7 +7,6 @@ dependencies:
     - menu_block
   theme:
     - orange_starter
-_core:
 id: primary_navigation
 theme: orange_starter
 region: primary_nav

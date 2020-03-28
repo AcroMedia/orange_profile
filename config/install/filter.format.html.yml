@@ -4,6 +4,7 @@ dependencies:
   module:
     - ckeditor_media_embed
     - editor
+    - entity_embed
 _core:
 name: HTML
 format: html
@@ -47,6 +48,12 @@ filters:
     provider: editor
     status: false
     weight: -43
+    settings: {  }
+  entity_embed:
+    id: entity_embed
+    provider: entity_embed
+    status: true
+    weight: -50
     settings: {  }
   filter_html_image_secure:
     id: filter_html_image_secure

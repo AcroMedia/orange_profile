@@ -3,7 +3,7 @@ status: true
 dependencies:
   config:
     - field.field.node.landing_page.field_meta_tags
-    - field.field.node.landing_page.field_paragraphs_reference
+    - field.field.node.landing_page.field_paragraphs
     - node.type.landing_page
   module:
     - entity_reference_revisions
@@ -22,7 +22,7 @@ content:
     third_party_settings: {  }
     type: metatag_empty_formatter
     region: content
-  field_paragraphs_reference:
+  field_paragraphs:
     weight: 0
     label: hidden
     settings:
@@ -34,3 +34,4 @@ content:
 hidden:
   langcode: true
   links: true
+  search_api_excerpt: true

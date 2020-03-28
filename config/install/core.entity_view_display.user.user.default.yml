@@ -15,3 +15,4 @@ hidden:
   field_display_name: true
   langcode: true
   member_for: true
+  search_api_excerpt: true

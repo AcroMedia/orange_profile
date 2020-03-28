@@ -162,7 +162,7 @@ function orange_profile_install() {
   $paragraph_webform_content->set('field_alignment', [
     'value' => 'right',
   ]);
-  $paragraph_webform_content->set('field_webform_reference', [
+  $paragraph_webform_content->set('field_webform', [
     'target_id' => 'contact',
     'status' => 'open',
   ]);
@@ -170,7 +170,7 @@ function orange_profile_install() {
     'value' => '<h3>Questions? Send us a message!</h3><p>All fields required, unless indicated.</p>',
     'format' => 'html',
   ]);
-  $paragraph_webform_content->set('field_paragraphs_reference', [
+  $paragraph_webform_content->set('field_paragraphs', [
     'target_id' => $paragraph_standard_content->id(),
     'target_revision_id' => $paragraph_standard_content->getRevisionId(),
   ]);
@@ -178,7 +178,7 @@ function orange_profile_install() {
   $paragraph_webform_content->save();
 
   // Add paragraphs to Contact Us node.
-  $node_contact_us->set('field_paragraphs_reference', [
+  $node_contact_us->set('field_paragraphs', [
     'target_id' => $paragraph_webform_content->id(),
     'target_revision_id' => $paragraph_webform_content->getRevisionId(),
   ]);

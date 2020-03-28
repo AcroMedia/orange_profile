@@ -21,6 +21,7 @@ dependencies:
   - dblog
   - dynamic_page_cache
   - editor
+  - embed
   - field
   - field_ui
   - file
@@ -32,6 +33,8 @@ dependencies:
   - language
   - link
   - locale
+  - media
+  - media_library
   - menu_link_content
   - menu_ui
   - node
@@ -66,16 +69,23 @@ dependencies:
   - ctools
   - ckeditor_font
   - ckeditor_media_embed
+  - coffee
   - color_field
   - colorbutton
   - contribute
   - comments_order
   - easy_breadcrumb
+  - entity_embed
   - entity_reference_revisions
   - editor_advanced_link
   - field_group
+  - file_mdm
+  - file_mdm_exif
+  - file_mdm_font
   - google_analytics
+  - google_tag
   - honeypot
+  - hotjar
   - image_effects
   - imce
   - linkit
@@ -85,9 +95,17 @@ dependencies:
   - menu_trail_by_path
   - metatag
   - metatag_open_graph
+  - metatag_views
   - panelbutton
   - paragraphs
+  - path_alias
   - pathauto
+  - schema_article
+  - schema_metatag
+  - schema_web_page
+  - search_api
+  - search_api_solr
+  - simple_sitemap
   - swiftmailer
   - taxonomy_menu
   - token
