@@ -4,7 +4,6 @@ dependencies:
   enforced:
     module:
       - webform
-_core:
 id: province_codes
 label: 'Province codes'
 category: Geographic

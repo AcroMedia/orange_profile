@@ -33,4 +33,3 @@ _default_container:
   include_environment: false
   environment_id: ''
   environment_token: ''
-_core:

@@ -3,7 +3,6 @@ status: true
 dependencies:
   theme:
     - orange_starter
-_core:
 id: pagetitle
 theme: orange_starter
 region: above_content

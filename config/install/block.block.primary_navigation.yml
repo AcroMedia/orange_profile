@@ -18,6 +18,8 @@ settings:
   label: 'Primary Navigation'
   provider: menu_block
   label_display: '0'
+  follow: 0
+  follow_parent: child
   level: 1
   depth: 1
   expand: 0

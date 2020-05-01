@@ -4,7 +4,6 @@ dependencies:
   enforced:
     module:
       - webform
-_core:
 open: null
 close: null
 weight: 0
