@@ -51,7 +51,7 @@
     "enable-patching": true,
     "patches": {
       "drupal/magnific_popup": {
-        "Compatibility with Drupal 9": "https://www.drupal.org/files/issues/2020-04-27/3127202-4.patch"
+        "Compatibility with Drupal 9": "https://www.drupal.org/files/issues/2020-04-13/drupal9-compatibility-3127202-2.patch"
       }
     }
   },
