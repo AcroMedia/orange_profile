@@ -47,6 +47,14 @@
     "acromedia/orange_framework": "dev-8.x-1.x",
     "acromedia/acro_live_css": "dev-8.x-1.x"
   },
+  "extra": {
+    "enable-patching": true,
+    "patches": {
+      "drupal/magnific_popup": {
+        "Compatibility with Drupal 9": "https://www.drupal.org/files/issues/2020-04-27/3127202-4.patch"
+      }
+    }
+  },
   "minimum-stability": "dev",
   "prefer-stable": true
 }
