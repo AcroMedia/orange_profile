@@ -1,5 +1,9 @@
 # Drupal Orange Profile
 
+**NOTICE**\
+Development for this theme has moved to [Drupal.org](https://www.drupal.org/). If you want to submit issues, develop, or use this theme please visit the [new project page](https://www.drupal.org/project/orange_profile).
+No pull requests submitted to this repository will be accepted from now on.
+
 > Custom profile by Acro Media Inc.
 
 An installation profile for Drupal 8.x that includes common modules for projects.
