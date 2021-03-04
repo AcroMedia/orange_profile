@@ -8,6 +8,7 @@
     "drupal/admin_toolbar": "^2.0",
     "drupal/advagg": "^4.0",
     "drupal/ajax_loader": "^1.4",
+    "drupal/coffee": "^1.0@beta",
     "drupal/config_inspector": "^1.0",
     "drupal/coffee": "^1.0",
     "drupal/ctools": "^3.0",
