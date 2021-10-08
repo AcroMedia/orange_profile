@@ -1,4 +1,4 @@
-transport: native
+transport: sendmail
 smtp_host: 127.0.0.1
 smtp_port: 25
 smtp_encryption: ''
@@ -10,6 +10,6 @@ smtp_credentials:
   key:
     username: ''
     password: ''
-sendmail_path: /usr/sbin/sendmail
-sendmail_mode: bs
+sendmail_path: '/usr/sbin/sendmail'
+sendmail_mode: 'bs'
 spool_directory: ''
